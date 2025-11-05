@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light dark;
+}
+
+/* Typography */
+.prose h2 {
+  @apply text-2xl font-semibold;
+}
+
+/* Layout helpers */
+.container {
+  @apply mx-auto w-full max-w-4xl px-6;
+}
